@@ -10,3 +10,13 @@ function getComputerChoice() {
     }
 
 }
+
+function getHumanChoice() {
+    let choice = parseInt(prompt("Introduce a valid choice\n"))
+
+    switch(choice) {
+        case 0: return "rock"
+        case 1: return "paper"
+        case 2: return "scissors"
+    }
+}
