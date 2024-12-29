@@ -1,7 +1,9 @@
 body {
+    height: 75vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
+    align-items: center;   
     gap: 32px;
     padding: 32px;
 }
@@ -9,7 +11,7 @@ body {
 #score-board {
     display: flex;
     justify-content: space-around;
-    gap: 32px;
+    gap: 64px;
 }
 
 #score-board>div {
