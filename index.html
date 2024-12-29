@@ -1,11 +1,26 @@
+<!--  
+1. remove logic that plays exactly five rounds
+2. create three buttons, one for each selection. Add an event listener to the buttons that call your playRound 
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>    
+<body>
+    <div id="score-board">
+        <p id="human-score">0</p>
+        <p id="computer-score">0</p>
+    </div>
+    <div class="button-group" id="button-group">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
 </body>
 </html>
